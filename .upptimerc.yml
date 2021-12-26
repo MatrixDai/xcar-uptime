@@ -34,6 +34,10 @@ status-website:
 i18n:
   allSystemsOperational: 所有系统运行正常
   liveStatus: 实时状态
+  overallUptime: "正常: $UPTIME"
+  overallUptimeTitle: 正常
+  averageResponseTime: "平均响应时间: $TIMEms"
+  averageResponseTimeTitle: 平均响应时间
   scheduledMaintenance: 计划维护
   pastScheduledMaintenance: 维护历史记录
   footer: Power by 猫眼科技
