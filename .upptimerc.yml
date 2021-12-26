@@ -36,4 +36,14 @@ i18n:
   liveStatus: 实时状态
   scheduledMaintenance: 计划维护
   pastScheduledMaintenance: 维护历史记录
-  footer: --
+  footer: Power by 猫眼科技
+  incidentCompleted: 完成
+  incidentScheduled: 计划
+  incidentReport: "详情 #$NUMBER →"
+  incidentBack: "← 返回"
+  incidentSubscribe: 订阅
+  startedAt: 开始
+  startsAt: 开始
+  duration: 时间
+  durationMin: $DURATION 分钟
+  
