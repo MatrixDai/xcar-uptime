@@ -1,7 +1,7 @@
 url: http://$M1_HOST:9090/q/health/ready
 status: up
 code: 200
-responseTime: 463
-lastUpdated: 2021-12-26T12:38:17.169Z
+responseTime: 516
+lastUpdated: 2021-12-26T12:52:26.451Z
 startTime: Sun Dec 26 2021 11:54:55 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
