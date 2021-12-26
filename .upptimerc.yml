@@ -1,26 +1,27 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: MatrixDai # Your GitHub organization or username, where this repository lives
+repo: xcar-upptime # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  - name: 【生产】消息服务（36.134.59.197）
+    url: http://36.134.59.197:9090/q/health/ready
+  - name: 【生产】MQTT服务（36.134.59.197）
+    check: "tcp-ping"
+    url: 36.134.59.197
+    port: 1883
+  - name: 【测试】消息服务（36.134.184.139）
+    url: http://36.134.184.139:9090/q/health/ready
+  - name: 【测试】MQTT服务（36.134.184.139）
+    check: "tcp-ping"
+    url: 36.134.184.139
+    port: 1883
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
   # baseUrl: /your-repo-name
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  name: 系统状态
+  introTitle: "**猫眼** 叉车监管系统状态监控页面"
+  introMessage: 系统状态
   navbar:
     - title: Status
       href: /
