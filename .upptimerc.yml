@@ -17,7 +17,7 @@ sites:
     port: 1883
 
 status-website:
-  # baseUrl: /your-repo-name
+  baseUrl: /xcar-uptime
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: 系统状态
   introTitle: "**猫眼** 叉车监管系统状态监控页面"
