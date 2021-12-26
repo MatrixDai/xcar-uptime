@@ -22,11 +22,11 @@ status-website:
   name: 系统状态
   introTitle: "**猫眼** 叉车监管系统状态监控页面"
   introMessage: 系统状态
-  navbar:
-    - title: Status
-      href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+  #navbar:
+  #  - title: Status
+  #    href: /
+  #  - title: GitHub
+  #    href: https://github.com/$OWNER/$REPO
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
