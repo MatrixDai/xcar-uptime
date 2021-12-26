@@ -32,4 +32,8 @@ status-website:
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
 i18n:
+  allSystemsOperational: 所有系统运行正常
   liveStatus: 实时状态
+  scheduledMaintenance: 计划维护
+  pastScheduledMaintenance: 维护历史记录
+  footer: --
