@@ -3,17 +3,17 @@ owner: MatrixDai # Your GitHub organization or username, where this repository l
 repo: xcar-uptime # The name of this repository
 
 sites:
-  - name: 【生产】消息服务（36.134.59.197）
-    url: http://36.134.59.197:9090/q/health/ready
-  - name: 【生产】MQTT服务（36.134.59.197）
+  - name: 【生产】消息服务
+    url: http://$M1_HOST:9090/q/health/ready
+  - name: 【生产】MQTT服务
     check: "tcp-ping"
-    url: 36.134.59.197
+    url: $M1_HOST
     port: 1883
-  - name: 【测试】消息服务（36.134.184.139）
-    url: http://36.134.184.139:9090/q/health/ready
-  - name: 【测试】MQTT服务（36.134.184.139）
+  - name: 【测试】消息服务
+    url: http://$M2_HOST:9090/q/health/ready
+  - name: 【测试】MQTT服务
     check: "tcp-ping"
-    url: 36.134.184.139
+    url: $M2_HOST
     port: 1883
 
 status-website:
@@ -22,6 +22,7 @@ status-website:
   name: 系统状态
   introTitle: "**猫眼** 叉车监管系统状态监控页面"
   introMessage: 系统状态
+  theme: dark
   #navbar:
   #  - title: Status
   #    href: /
